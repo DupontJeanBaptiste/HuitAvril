@@ -4,6 +4,10 @@
     {{ encore_entry_link_tags('home') }}
 {% endblock %}
 
+{% block navbar %}
+    {% include 'Navbar/navbarUser.html.twig' %}
+{% endblock %}
+
 {% block body %}
 Home admin
 {% endblock %}

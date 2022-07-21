@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block stylesheets %}
+    {{ encore_entry_link_tags('home') }}
+{% endblock %}
+
+{% block navbar %}
+    {% include 'Navbar/navbarUser.html.twig' %}
+{% endblock %}
+
+{% block body %}
+<div class="card">
+  <img class="card-img-top" src="{{ asset('build/images/8avril.png') }}" alt="Image8avril">
+  <div class="card-body">
+    <p class="card-text">Bienvenue sur mon site de vente de poterie, ceci est un texte provisoire.</p>
+  </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+    {% include 'Footer/footerUser.html.twig' %}
+{% endblock %}

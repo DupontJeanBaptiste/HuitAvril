@@ -1,4 +1,17 @@
-
+@import "~bootstrap/scss/bootstrap";
+@import "navbar";
 body {
-    background-color: yellow;
+    background-color: #B0A8B9;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80rem;
+}
+
+.card-body{
+    display: flex;
+    justify-content: center;
 }
