@@ -1,18 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 @import "navbar";
+
 body {
     background-color: #B0A8B9;
 }
 
-.card{
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80rem;
-    margin-top: 8rem;
-}
-
-.card-body{
+.form-new-item{
+    margin-top: 10rem;
     display: flex;
     justify-content: center;
 }

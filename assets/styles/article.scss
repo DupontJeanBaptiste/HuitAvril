@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+@import "navbar";
+body {
+    background-color: #B0A8B9;
+}
+
+.card-img-top{
+    height: 20rem;
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+}
+
+.cards{
+    margin-top: 9rem;
+}
+
+.card{
+    margin-bottom: 3rem;
+    width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.add-new-item{
+    margin-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.bi.bi-plus-circle{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.edit-card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}

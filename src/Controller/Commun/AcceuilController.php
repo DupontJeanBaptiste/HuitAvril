@@ -12,10 +12,7 @@ class AcceuilController extends AbstractController
     #[Route('/', name:'app_acceuil')]
     public function index(ItemRepository $itemRepository): Response
     {
-        $items = $itemRepository->findAll();
-
         return $this->render('Commun/acceuil.html.twig', [
-            'items' => $items,
         ]);
     }
 }
