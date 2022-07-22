@@ -15,7 +15,7 @@ class AfterSuccesLoginController extends AbstractController
         */
         $role = $this->getUser()->getRoles()[0];
         if ($role === 'ROLE_ADMIN') {
-            return $this->render('Admin/home.html.twig');
+            return $this->redirectToRoute('app_acceuil');
         } else {
             return $this->redirectToRoute('app_acceuil');
         }

@@ -5,16 +5,13 @@ body {
     background-color: #B0A8B9;
 }
 
-button{
-    margin-top: 1rem;
-}
+
 
 .card.text-center{
     margin-top: 8rem;
-    margin-bottom: 5rem;
-    width: 40rem;
     margin-left: auto;
     margin-right: auto;
+    width: 70vw;
 }
 
 .footer{
@@ -23,7 +20,17 @@ button{
     width: 100%;
 }
 
-.form-new-item{
+form{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    width: 40rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button-submit{
+    width: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
 }

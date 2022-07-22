@@ -32,7 +32,7 @@ Encore
      * and one CSS file (e.g. app.css) if your JavaScript imports CSS.
      */
     .addEntry('home', './assets/home.js')
-    .addEntry('loggin', './assets/loggin.js')
+    .addEntry('login', './assets/login.js')
     .addEntry('article', './assets/article.js')
     .addEntry('form', './assets/form.js')
 

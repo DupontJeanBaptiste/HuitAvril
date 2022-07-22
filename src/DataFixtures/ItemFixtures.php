@@ -23,7 +23,7 @@ class ItemFixtures extends Fixture implements DependentFixtureInterface
     {
         $faker = Factory::create();
 
-        for($i = 0; $i < 50; $i++) {
+        for($i = 0; $i < 6; $i++) {
             $item = new Item();
             $item->setName('Item_Name');
             $item->setDescription($faker->paragraphs(2, true));

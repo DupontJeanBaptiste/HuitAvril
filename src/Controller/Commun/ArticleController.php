@@ -62,4 +62,15 @@ class ArticleController extends AbstractController
             'form' => $form,
         ]);
     }
+
+    #[Route('/{id<\d+>}/remove', name: 'remove')]
+    public function remove(ItemRepository $itemRepository, $id): Response
+    {
+        $item = $itemRepository->findOneBy(['id' => $id]);
+
+        $itemRepository->remove($item, true);
+
+        return $this->redirectToRoute('app_article_show');
+
+    }
 }

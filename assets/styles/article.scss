@@ -14,6 +14,7 @@ body {
 
 .cards{
     margin-top: 9rem;
+    margin-bottom: 5rem;
 }
 
 .card{
@@ -29,6 +30,11 @@ body {
     align-items: center;
 }
 
+.card-description{
+    text-align: center;
+    width: 40rem;
+}
+
 .add-new-item{
     margin-bottom: 5rem;
     display: flex;
@@ -42,6 +48,12 @@ body {
 }
 
 .edit-card{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+}
+
+.remove-card{
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 1rem;

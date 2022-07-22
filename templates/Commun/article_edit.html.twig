@@ -9,12 +9,21 @@
 {% endblock %}
 
 {% block body %}
-    <div class="form-new-item">
-        {{ form_start(form) }}
-        {{ form_widget(form) }}
-            <button type="submit">Modifier l'article !</button>
-        {{ form_end(form) }}
-
+    <div class="card text-center">
+        <div class="card-header">
+            <h1>Modifier un article</h1>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Veuillez modifier les informations</h5>
+            <div class="form-modifications">
+                <div class="form-new-item">
+                    {{ form_start(form) }}
+                    {{ form_widget(form) }}
+                        <button type="submit">Modifier l'article !</button>
+                    {{ form_end(form) }}
+                </div>
+            </div>
+        </div>
     </div>
 {% endblock %}
 
